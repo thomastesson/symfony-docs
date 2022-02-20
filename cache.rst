@@ -522,7 +522,7 @@ the same key could be invalidated with one function call::
         }
     }
 
-The cache adapter needs to implement :class:`Symfony\\Contracts\\Cache\\TagAwareCacheInterface`
+The cache pool needs to implement :class:`Symfony\\Contracts\\Cache\\TagAwareCacheInterface`
 to enable this feature. This could be added by using the following configuration.
 
 .. configuration-block::
